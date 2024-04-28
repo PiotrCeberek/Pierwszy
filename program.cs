@@ -113,37 +113,6 @@ class Trojkat
     }
 
 }
-class Czworokat
-{
-    private Linia l1, l2, l3, l4;
-
-    public Czworokat(Punkt p1, Punkt p2, Punkt p3, Punkt p4)
-    {
-        this.l1 = new Linia(p1, p2);
-        this.l2 = new Linia(p2, p3);
-        this.l3 = new Linia(p3, p4);
-        this.l4 = new Linia(p4, p1);
-    }
-    public Czworokat(Czworokat c)
-    {
-        this.l1 = c.l1;
-        this.l2 = c.l2;
-        this.l3 = c.l3;
-        this.l4 = c.l4;
-    }
-    public void przesun(int x, int y)
-    {
-        l1.przesun(x, y);
-        l2.przesun(x, y);
-        l3.przesun(x, y);
-        l4.przesun(x, y);
-    }
-    public override string ToString()
-    {
-        string tekst = "Czworokat(" + l1.ToString() + "; " + l2.ToString() + "; " + l3.ToString() + "; " + l4.ToString() + ")";
-        return tekst;
-    }
-}
 class Obraz
 {
     private List<Trojkat> trojkaty = new List<Trojkat>();
