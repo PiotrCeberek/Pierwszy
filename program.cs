@@ -1,5 +1,5 @@
 ﻿using System.Text;
-//komentarz1
+//komentarz1123893
 class Program
 {
     static void Main(string[] args)
