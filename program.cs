@@ -170,7 +170,7 @@ class Obraz
             czworokaty[i].przesun(x, y);
         }
     }
-    //Smacznej Kawusi
+    //12345556
     public override string ToString()
     {
         StringBuilder nazwa = new StringBuilder();
