@@ -1,5 +1,5 @@
 ﻿using System.Text;
-
+//komentarz1
 class Program
 {
     static void Main(string[] args)
@@ -10,7 +10,7 @@ class Program
         Console.WriteLine(l1);
         Console.WriteLine(l2);
         Console.WriteLine('\n');
-
+        
         Punkt p3 = new Punkt(5, 5);
         Punkt p4 = new Punkt(6, 6);
         Console.WriteLine(p1.ToString());
