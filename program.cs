@@ -1,5 +1,5 @@
 ﻿using System.Text;
-//komentarz1123893
+//komentarz112389312097471748362866468263463846
 class Program
 {
     static void Main(string[] args)
